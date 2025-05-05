@@ -58,6 +58,7 @@ const sendEmail = async (req, res) => {
         reviewedByAdmin: riskAnalysis.reviewedByAdmin,
       };
       await riskAnalysisModel.create(riskAnalysisData);
+      
 
       return res
         .status(400)
@@ -86,6 +87,7 @@ const sendEmail = async (req, res) => {
     const workbook = xlsx.read(excelFile.buffer, { type: "buffer" });
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const data = xlsx.utils.sheet_to_json(worksheet);
+
 
     const transporter = createTransporter(user);
 
