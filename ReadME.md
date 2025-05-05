@@ -1,10 +1,5 @@
-Here is an enhanced and polished version of your README for **HiFazat Inbox**, with improved formatting, clarity, consistency, and added badges to make it more professional and appealing:
-
----
-
 # 📬 HiFazat Inbox – Modern Email Management System
 
-![Project Logo](Frontend/public/logo.png)
 
 **HiFazat Inbox** is a feature-rich, modern email management system built using **React** and **Node.js**. It delivers a seamless and responsive user experience for composing, sending, and organizing emails, while offering robust administrative and security features.
 
@@ -130,7 +125,7 @@ This project is licensed under the **ISC License** – see the [LICENSE](LICENSE
 
 ## 👥 Author
 
-* ![**Muhammad Ahad**](https://github.com/Ahad-dev) – development and design
+* [**Muhammad Ahad**](https://github.com/Ahad-dev) – development and design
 
 ---
 
